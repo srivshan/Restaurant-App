@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Little Lemon</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/Asset 16@4x.png" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#book">Book</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <article class="discount-article">
+          <h2>Special Discount</h2>
+          <p>
+            Enjoy a special discount on your next visit! Use code
+            <strong>LEMON10</strong> to get 10% off your order.
+          </p>
+          <a href="#book" class="book-now-button">Book Now</a>
+        </article>
+        <div class="advertise_banners">
+          <article class="article_1">
+            <h2>Our Menu</h2>
+            <img src="images\menu.jpg" alt="menu" />
+            <p>
+              Veniam nisi aute do reprehenderit eiusmod mollit. Veniam est
+              laboris deserunt elit aute eu in nostrud voluptate minim. Elit
+              cillum consectetur tempor voluptate veniam nostrud ipsum dolor
+              quis irure.Deserunt sunt laborum laborum do sit eiusmod in mollit
+              veniam est est. Cupidatat ea non anim duis consectetur nisi.
+              Proident officia sunt anim ipsum cupidatat deserunt exercitation
+              Lorem cillum culpa esse nostrud excepteur. Adipisicing fugiat do
+              occaecat consequat irure irure laboris eiusmod id exercitation
+              cupidatat nulla laboris. Nulla non eu Lorem cillum proident
+              cupidatat cillum sit. Eiusmod ipsum id ex sit eiusmod laborum id
+              culpa voluptate ea cupidatat aliquip in. Ullamco proident occaecat
+              ea mollit laborum pariatur voluptate irure mollit cillum ex.
+              Consectetur voluptate Lorem nostrud qui magna duis esse ad
+              laborum.
+            </p>
+            <a href="#menu">See Our Menu</a>
+          </article>
+          <article class="article_2">
+            <h2>Opening hours</h2>
+            <img src="images\cooking.jpg" alt="menu" />
+            <p>
+              Veniam nisi aute do reprehenderit eiusmod mollit. Veniam est
+              laboris deserunt elit aute eu in nostrud voluptate minim. Fugiat
+              amet officia sint nulla non elit. Sit adipisicing amet non
+              excepteur minim laborum pariatur qui esse. Nostrud ipsum pariatur
+              enim et.
+            </p>
+            <p>Mon-Fri : 2pm-10pm</p>
+            <p>Sat : 2pm-11pm</p>
+            <p>Sun : 2pm-9pm</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="menu">
+        <h1 class="Menu_head">Explore Our Menu</h1>
+        <div class="menu">
+          <div>
+            <section id="appetizers">
+              <h2>Appetizers</h2>
+              <div class="menu-item">
+                <h3>Bruschetta</h3>
+                <p>Tomatoes, garlic, basil, and mozzarella on grilled bread.</p>
+              </div>
+              <div class="menu-item">
+                <h3>Spinach Artichoke Dip</h3>
+                <p>
+                  Creamy spinach and artichoke dip served with tortilla chips.
+                </p>
+              </div>
+            </section>
+
+            <section id="main-courses">
+              <h2>Main Courses</h2>
+              <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>
+                  Fresh salmon grilled to perfection, served with lemon butter
+                  sauce.
+                </p>
+              </div>
+              <div class="menu-item">
+                <h3>Chicken Alfredo</h3>
+                <p>
+                  Grilled chicken breast served over fettuccine with Alfredo
+                  sauce.
+                </p>
+              </div>
+            </section>
+          </div>
+          <div>
+            <section id="desserts">
+              <h2>Desserts</h2>
+              <div class="menu-item">
+                <h3>Chocolate Lava Cake</h3>
+                <p>
+                  Warm chocolate cake with a gooey molten center, served with
+                  vanilla ice cream.
+                </p>
+              </div>
+              <div class="menu-item">
+                <h3>Classic Cheesecake</h3>
+                <p>
+                  New York-style cheesecake topped with your choice of fruit
+                  compote.
+                </p>
+              </div>
+            </section>
+
+            <section id="drinks">
+              <h2>Drinks</h2>
+              <div class="menu-item">
+                <h3>House Blend Coffee</h3>
+                <p>Our special blend of freshly brewed coffee.</p>
+              </div>
+              <div class="menu-item">
+                <h3>Fruit Punch</h3>
+                <p>Refreshing fruit punch with a mix of tropical flavors.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="book">
+        <div class="booking-container">
+          <div class="booking">
+            <h1 class="Menu_head">Book a Reservation</h1>
+            <form>
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date" required />
+              <br />
+
+              <label for="numCustomers">Number of Customers:</label>
+              <input
+                type="number"
+                id="numCustomers"
+                name="numCustomers"
+                min="1"
+                required
+              />
+              <br />
+
+              <label for="adults">Adults:</label>
+              <input type="number" id="adults" name="adults" min="0" required />
+              <br />
+
+              <label for="children">Children:</label>
+              <input
+                type="number"
+                id="children"
+                name="children"
+                min="0"
+                required
+              />
+              <br />
+
+              <button type="submit">Book Table</button>
+            </form>
+          </div>
+
+          <div>
+            <img class="book_img" src="images\restaurant.jpg" alt="book_logo" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <
+        <div class="about_container">
+          <div class="banner">
+            <h1>About Little Lemon Restaurant</h1>
+            <p>
+              Experience the finest flavors crafted with love and passion...
+            </p>
+          </div>
+          <div class="about_logo">
+            <img src="images\about1.jpg" alt="hotel_img" />
+          </div>
+
+          <div class="content">
+            <h2>Our Story</h2>
+            <p>
+              Welcome to Little Lemon Restaurant, where every dish tells a
+              story. Ad reprehenderit veniam ipsum do nostrud nulla. Non enim
+              reprehenderit ex laborum eiusmod aute quis non deserunt. Voluptate
+              sint laborum do amet nulla exercitation elit consectetur nisi
+              officia. Amet adipisicing ipsum est et exercitation amet non.
+              Commodo occaecat nulla reprehenderit eiusmod commodo do
+              consectetur.
+            </p>
+            <p>
+              Ad deserunt aute ut nulla aute exercitation. Nisi enim ad
+              cupidatat velit sunt consequat in laborum esse id. Eiusmod dolore
+              consequat in ex cillum fugiat adipisicing excepteur dolore laborum
+              in ea velit excepteur. Fugiat officia aliqua Lorem qui in nisi
+              dolor commodo aliquip labore aute. Elit occaecat veniam elit
+              fugiat. Ut mollit deserunt culpa aliqua quis sint irure do non.
+              Nulla irure aliqua eu ut voluptate excepteur pariatur non
+              consequat labore dolore. Proident eiusmod eiusmod voluptate culpa
+              laboris velit mollit commodo. Mollit incididunt nostrud ex
+              consectetur mollit exercitation ea eu. Tempor fugiat duis anim
+              ipsum mollit ut. Voluptate irure esse laborum labore non voluptate
+              exercitation eiusmod quis veniam est esse laboris. In eiusmod duis
+              cupidatat laborum exercitation. Enim ullamco culpa exercitation
+              consectetur elit nisi proident officia veniam mollit in in. Aute
+              proident ex reprehenderit anim eu quis enim esse esse aliqua
+              commodo nulla laborum officia.Adipisiing cupidatat aliquip labore
+              nulla dolor minim sint est. Amet est nisi commodo sint sunt eu
+              Lorem pariatur do laborum officia aliqua nulla. Irure nisi eu
+              labore cillum deserunt consectetur nostrud aliqua ut tempor dolor
+              ex consectetur sunt. Ex officia consectetur exercitation nisi sint
+              minim id exercitation aliquip consectetur aliquip. Cillum sint
+              reprehenderit magna nulla incididunt exercitation Lorem sint amet
+              dolor esse ex sint. In consectetur minim aliquip aute ea velit
+              aute laboris esse ad ad. Non ut ad ullamco excepteur pariatur
+              commodo mollit magna aliquip. Consequat sunt ex occaecat nisi sint
+              anim dolore ea ea excepteur exercitation cupidatat dolor fugiat.
+            </p>
+            <h2>Our Mission</h2>
+            <p>
+              At Little Lemon, our mission is to delight your taste buds with
+              the freshest ingredients and innovative recipes.Aute anim duis
+              excepteur laborum ea qui pariatur amet ea aliquip ipsum. Esse sunt
+              deserunt dolore aliqua Lorem occaecat anim. Aute sit officia
+              aliqua exercitation. Mollit deserunt proident proident sit aliqua
+              consectetur deserunt irure laboris irure officia ipsum laboris
+              irure.Fugiat aute enim tempor minim nisi ad ad consectetur veniam.
+              Aliquip do voluptate Lorem nostrud et sint. Minim ipsum velit
+              Lorem ex esse exercitation magna. Do velit do ullamco id ex do
+              commodo fugiat dolore consectetur labore. Voluptate aute aliqua
+              consectetur ut dolor. Ad eu dolor ad laboris. Duis id irure et
+              ullamco ea irure ea deserunt laborum in tempor officia sunt. Enim
+              cupidatat irure non pariatur officia cillum minim labore amet non
+              veniam sunt ullamco. Reprehenderit et proident velit labore
+              nostrud. Excepteur ex dolore ullamco excepteur sunt ad quis nisi
+              et ut. Exercitation tempor elit sunt tempor incididunt nostrud
+              quis. Ex officia occaecat adipisicing ad veniam nulla ut sit ad
+              reprehenderit. Veniam sint nulla occaecat veniam id nisi eu ea
+              pariatur exercitation minim. Nulla laborum occaecat dolor eiusmod
+              sunt laboris aliquip reprehenderit. Lorem proident do ipsum veniam
+              mollit id eiusmod tempor duis commodo. Consectetur est minim culpa
+              esse sit. Non ipsum sit magna anim dolore commodo do dolor laborum
+              eiusmod proident velit est. Mollit ipsum qui officia officia quis
+              labore officia consectetur.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <span class="copyright-symbol">&#169;</span> 2024 Little Lemon. All
+        rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

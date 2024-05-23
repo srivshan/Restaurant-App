@@ -1,0 +1,251 @@
+img {
+    width: 35%; 
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    
+  }
+
+  h1 {
+    color:white; 
+    margin-left: 100px;
+    margin-right:100px; 
+  }
+  .Menu_head{
+    color:black; 
+    margin-left: 100px;
+    margin-right:100px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333; 
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+    margin-bottom: 20px;
+    
+  }
+
+  li {
+    display: inline-block;
+    color: white;
+    padding: 8px;
+    font-size: x-large; 
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 10px; 
+    text-decoration:none;
+    color:white;
+  }
+
+  li a:hover {
+    background-color: gray; 
+  }
+  .banner{
+    background-image: url('images/about1.jpg'); 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    
+  }
+
+  .content {
+    padding: 0px;
+    text-align: justify;
+    margin: 0px;
+    
+  }
+  .about_logo{
+    float: left;
+    width: 1000px; 
+    margin: 0px;
+    padding: 0%;
+  }
+  
+  .discount-article {
+    flex: 0 0 calc(100% - 20px); 
+    margin-bottom: 20px;
+    background-color: #f8f8f8; 
+    padding: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+  }
+  
+  .book-now-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .book-now-button:hover {
+    background-color: #555;
+  }
+  
+  .discount-article {
+    max-width: 100%; 
+    height: 100%; 
+    margin-left: 100px;
+    margin-right:100px; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+    background-image: url('images/discount.jpg');
+    color: rgb(234, 237, 240);
+    font-size: larger;
+    text-shadow: #333;
+  }
+  .about_container{
+    margin-left: 100px;
+    margin-right:100px; 
+
+
+  }
+
+
+  html{
+    background-color:lightgray;
+  }
+  .article_1 {
+    max-width: 40%; 
+    float: left;
+    margin-right: 20px; 
+    margin-left: 100px;
+    margin-right:10px; 
+    background-color:antiquewhite;
+    padding: 5px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+    
+}
+.article_1 p{
+  text-wrap: wrap;
+  padding: 15px;
+}
+.article_1 h2{
+  padding-left: 20px;
+}
+
+.article_1 img {
+    width: 40%; 
+    height: 40%; 
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    
+}
+.advertise_banner{
+  display: flex;
+  
+
+}
+.article_2 {
+  max-width: 40%; 
+  float: left;
+  margin-left: 120px;
+  margin-right:10px; 
+  background-color:antiquewhite;
+  padding: 15px;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius:10px ;
+  
+}
+.article_2 p{
+text-wrap: wrap;
+margin-bottom: 25px; 
+padding: 5px;
+
+}
+.article_2 h2{
+padding-left: 20px;
+}
+
+.article_2 img {
+  width: 50%; 
+  height: 50%; 
+  float: left;
+  margin-bottom: 33px;
+  padding: 5px;
+  margin: 5px;
+  
+}
+
+section {
+  padding: 20px;
+  margin-left: 100px;
+  margin-right:100px; 
+}
+
+section h2 {
+  color: #333;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+
+.menu{
+  display: flex;
+}
+
+.booking-container {
+  display: flex;
+  
+  align-items: center;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right:100px; 
+}
+
+.booking {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.booking form {
+  max-width: 400px;
+  margin-top:60px ;
+  margin-left: 100px;
+  margin-right:100px; 
+}
+
+.booking form input{
+  margin:20px;
+}
+
+.book_img {
+  max-width: 60%;
+  height: auto;
+  margin:0px;
+}
+ 
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.copyright-symbol {
+  font-size: 14px;
+  margin: 15px;
+}

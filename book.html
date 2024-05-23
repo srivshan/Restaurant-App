@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Book</title>
+</head>
+<body>
+  <img src="images/Asset 16@4x.png" alt="logo" />
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </body>
+  <div class="booking-container">
+    <div class="booking">
+        <h1 class="Menu_head">Book a Reservation</h1>
+        <form>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br>
+
+            <label for="numCustomers">Number of Customers:</label>
+            <input type="number" id="numCustomers" name="numCustomers" min="1" required>
+            <br>
+
+            <label for="adults">Adults:</label>
+            <input type="number" id="adults" name="adults" min="0" required>
+            <br>
+
+            <label for="children">Children:</label>
+            <input type="number" id="children" name="children" min="0" required>
+            <br>
+
+            <button type="submit">Book Table</button>
+        </form>
+    </div>
+
+    <div>
+        <img class="book_img" src="images\restaurant.jpg" alt="book_logo">
+    </div>
+  </div>
+  <footer>
+    <span class="copyright-symbol">&#169;</span> 2024 Little Lemon. All rights reserved.
+  </footer>
+
+</body>
+</html>
